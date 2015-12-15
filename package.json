@@ -1,0 +1,24 @@
+{
+  "name": "hapi-request-id",
+  "version": "1.0.0",
+  "description": "A Hapi.js plugin for setting request ID from request ID headers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usecanvas/hapi-request-id.git"
+  },
+  "keywords": [
+    "hapi",
+    "request-id"
+  ],
+  "author": "Jonathan Clem <jotclem@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usecanvas/hapi-request-id/issues"
+  },
+  "homepage": "https://github.com/usecanvas/hapi-request-id#readme",
+  "dependencies": {}
+}
