@@ -4,7 +4,7 @@
   "description": "A Hapi.js plugin for setting request ID from request ID headers",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha \"test/**/*-test.js\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
     "url": "https://github.com/usecanvas/hapi-request-id/issues"
   },
   "homepage": "https://github.com/usecanvas/hapi-request-id#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "hapi": "^13.0.0",
+    "mocha": "^2.4.5"
+  }
 }
