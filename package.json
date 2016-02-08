@@ -1,6 +1,6 @@
 {
   "name": "hapi-request-id",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Hapi.js plugin for setting request ID from request ID headers",
   "main": "lib/index.js",
   "scripts": {
