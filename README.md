@@ -18,6 +18,15 @@ server.register([
 ], function(err) {
   /* etc. */
 });
+
+// You can also specify any arbitrary header to set as the request ID
+server.register({
+  register: RequestID,
+  options: { header: 'x-my-custom-id-header' }
+}, function(err) {
+  /* etc. */
+});
+
 ```
 
 [heroku-http-request-id]: https://devcenter.heroku.com/articles/http-request-id
